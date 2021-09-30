@@ -1,0 +1,2043 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>حــورس بــوسـت</title>
+    <!-- plugin css for this page -->
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/mdi/css/materialdesignicons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/vendors/aos/dist/aos.css/aos.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/owl.carousel/dist/assets/owl.theme.default.min.css"
+    />
+      <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/fonts/18410-ah-naskh-hadith(1).ttf">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade:wght@400;700&display=swap" rel="stylesheet">
+    
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="./assets/css/maps/bootstrap.min.css">
+    
+    <!-- End plugin css for this page -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <!-- inject:css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- endinject -->
+  </head>
+
+  <body>
+    <div class="container-scroller">
+      <div class="main-panel">
+        <header id="header">
+          <div class="container">
+            <!-- partial:partials/_navbar.html -->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+              <div class="d-flex justify-content-between align-items-center nav-contact">
+              <div class="d-flex">
+                <ul dir="rtl" class="social-media">
+                  <li>
+                    <a href="">من نحن</a>
+                  </li>
+                  <li>
+                    <a href="">التواصل معنا</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="d-flex">
+                <ul dir="rtl" class="social-media">
+                  <li>
+                    <a href="">
+                      <p>
+                        <script>
+                          let format= d=> d.toString().replace(/\w+ (\w+) (\d+) (\d+).*/,'$2-$1-$3');
+                          document.write( format(Date()) );</script>
+                        </p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <p>
+                        <script>
+                        // date is optional, defaults to today
+                          function writeHijri(date, lang) {
+                            var date = date || new Date();
+                            lang = lang || 'en';
+                            var options = {
+                              year: 'numeric', month: 'long', day: 'numeric'
+                            };
+                            return date.toLocaleString(lang + '-u-ca-islamic', options);
+                          }
+                          
+                          // Today in English
+                          console.log(writeHijri());
+                          
+                          // 1 Jan 2017 converted to Hijri (3 Rab. II 1438) in Arabic
+                          document.write(writeHijri(new Date(2017,0,1), 'ar'));</script>
+                        </p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+              
+              <div class="d-flex justify-content-between align-items-center nav-mob navbar-top">
+                <div class="d-flex">
+                  <ul dir="rtl" class="social-media">
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-twitter"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="text-center">
+                  <a class="navbar-brand" href="#"
+                    ><img class="logo" src="./assets/images/logo.jpeg" alt=""
+                  /></a>
+                </div>
+
+                <div class="text-right weather-div">
+                    <img class="weather" src="./assets/images/images.jpg" alt="">
+                </div>
+
+
+              </div>
+              <div class="navbar-bottom-menu">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div dir="rtl"
+                  class="navbar-collapse justify-content-center collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul
+                    class="navbar-nav d-lg-flex justify-content-between align-items-center"
+                  >
+                    <li>
+                      <button class="navbar-close">
+                        <i class="mdi mdi-close"></i>
+                      </button>
+                    </li>
+                    <li class="nav-item active ">
+                      <a class="nav-link active" href="index.html">الرئيسيه</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="pages/world.html">بلاد </a>
+                      <ul class="dropdown-right">
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">عاجل</a>
+                        </li>                    
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">أخبار</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="pages/author.html">حيـــاه</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="pages/news-post.html">اقتصاد</a>
+                      <ul class="dropdown-right">
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">أخبار</a>
+                        </li>                    
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">تحليل</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="pages/business.html">رياضه</a>
+                      <ul class="dropdown-right">
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">أخبار</a>
+                        </li>                    
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">تحليل</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="pages/sports.html">ثقافه</a>
+                      <ul class="dropdown-right">
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">أخبار</a>
+                        </li>                    
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">تحليل</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown ">
+                      <a class="nav-link" href="pages/art.html">منوعات</a>
+                      <ul class="dropdown-right">
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">سوشيال</a>
+                        </li>                    
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">توك شو</a>
+                        </li>
+                        <li class="">
+                          <a class="nav-link" href="pages/world.html">مرأه وطفل</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item nav-last">
+                      <a class="nav-link" href="pages/art.html">حضاره</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <!-- partial -->
+          </div>
+        </header>
+        <div class="container ">
+          <div class="owl-container">
+          <div class="row">        
+            <div class="col-lg-3 relative-1">  
+              <div class="more">
+                <h6 class="font-weight-600 mt-3 text-center">
+                  <a href="post.html" class="nav-link-post">
+                    الأكثر قراءة
+                  </a>
+                </h6>
+              </div>
+              <div class="latest-before">
+                <h6 class="font-weight-600 mt-3 text-right">
+                  <a href="post.html" class="nav-link-post">
+                    خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                  </a>
+                </h6>
+                <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                  خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                </p>
+              </div>
+              
+              <div class="latest-before">
+                <h6 class="font-weight-600 mt-3 text-right">
+                  <a href="post.html" class="nav-link-post">
+                    خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                  </a>
+                </h6>
+                <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                  خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                </p>
+              </div>
+              
+              <div class="latest-before">
+                <h6 class="font-weight-600 mt-3 text-right">
+                  <a href="post.html" class="nav-link-post">
+                    خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                  </a>
+                </h6>
+                <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                  خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                </p>
+              </div>
+            </div>
+
+
+            <div class="col-lg-9">
+              <div class="owl-carousel owl-theme" id="main-banner-carousel">
+                <div class="item">
+                  <div class="carousel-content-wrapper mb-2">
+                    <div dir="rtl" class="carousel-content text-right">
+                      <h1 class="font-weight-bold">
+                        If you wanted to get rich, how would you do it?
+                      </h1>
+                      <h6 class="font-weight-normal  m-0">
+                        Lorem Ipsum has been the industry's standard
+                      </h6>
+                      <p class="text-color m-0 pt-2 d-flex align-items-center">
+                        <span class="fs-10 mr-1">2 hours ago</span>
+                        <i class="mdi mdi-bookmark-outline mr-3"></i>
+                        <span class="fs-10 mr-1">126</span>
+                        <i class="mdi mdi-comment-outline"></i>
+                      </p>
+                    </div>
+                    <div class="carousel-image" >
+                      <img src="assets/images/dashboard/banner.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="carousel-content-wrapper mb-2">
+                    <div class="carousel-content text-right">
+                      <h1 class="font-weight-bold">
+                        If you wanted to get rich, how would you do it?
+                      </h1>
+                      <h6 class="font-weight-normal  m-0">
+                        Lorem Ipsum has been the industry's standard
+                      </h6>
+                      <p class="text-color m-0 pt-2 d-flex align-items-center">
+                        <span class="fs-10 mr-1">2 hours ago</span>
+                        <i class="mdi mdi-bookmark-outline mr-3"></i>
+                        <span class="fs-10 mr-1">126</span>
+                        <i class="mdi mdi-comment-outline"></i>
+                      </p>
+                    </div>
+                    <div class="carousel-image">
+                      <img src="assets/images/dashboard/banner_1.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="carousel-content-wrapper mb-2">
+                    <div class="carousel-content text-right">
+                      <h1 class="font-weight-bold">
+                        If you wanted to get rich, how would you do it?
+                      </h1>
+                      <h6 class="font-weight-normal  m-0">
+                        Lorem Ipsum has been the industry's standard
+                      </h6>
+                      <p class="text-color m-0 pt-2 d-flex align-items-center">
+                        <span class="fs-10 mr-1">2 hours ago</span>
+                        <i class="mdi mdi-bookmark-outline mr-3"></i>
+                        <span class="fs-10 mr-1">126</span>
+                        <i class="mdi mdi-comment-outline"></i>
+                      </p>
+                    </div>
+                    <div class="carousel-image">
+                      <img src="assets/images/dashboard/banner_2.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="carousel-content-wrapper mb-2">
+                    <div class="carousel-content text-right">
+                      <h1 class="font-weight-bold">
+                        If you wanted to get rich, how would you do it?
+                      </h1>
+                      <h6 class="font-weight-normal  m-0">
+                        Lorem Ipsum has been the industry's standard
+                      </h6>
+                      <p class="text-color m-0 pt-2 d-flex align-items-center">
+                        <span class="fs-10 mr-1">2 hours ago</span>
+                        <i class="mdi mdi-bookmark-outline mr-3"></i>
+                        <span class="fs-10 mr-1">126</span>
+                        <i class="mdi mdi-comment-outline"></i>
+                      </p>
+                    </div>
+                    <div class="carousel-image">
+                      <img src="assets/images/dashboard/banner_3.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+          <!-- Start Section 1-->
+          <div dir="rtl" class="container mob">
+            
+          <div class="row">
+            <div class="col-lg-12">
+              <img class="Advertising" src="assets/images/Advertising.jpeg" alt="">
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <h1 class="text-center mt-5">
+                    حيـــاه
+                  </h1>
+                  <p class="text-secondary fs-15">
+                    أهم أخبار الحياه
+                  </p>
+                </div>
+                <h6 class="text-muted font-weight-medium mb-3 text-right">حيـــاه</h6>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+                
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+
+        
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400" >
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                      src="assets/images/business/Business_1.jpg"
+                      class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row ">
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400 d-flex">
+                    <div class="last-row">
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                        src="assets/images/business/Business_1.jpg"
+                        class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">
+                      استدعت وزارة الخارجية الجزائرية الأربعاء السفير الفرنسي في الجزائر للاحتجاج على قرار باريس خفض عدد التأشيرات الممنوحة للمواطنين الجزائريين، بحسب بيان
+                    </p>
+                  </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img text-right">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2 mob2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    <div class="col-sm-4  mb-5 mb-sm-2">
+                      <div class="position-relative image-hover d-img text-right">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <!-- End section 1-->
+        </div>
+
+          <!-- Start Section 1-->
+          <div dir="rtl" class="container mob">
+            
+          <div class="row">
+            <div class="col-lg-12">
+              <img class="Advertising" src="assets/images/Advertising.jpeg" alt="">
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <h1 class="text-center mt-5">
+                    حيـــاه
+                  </h1>
+                  <p class="text-secondary fs-15">
+                    أهم أخبار الحياه
+                  </p>
+                </div>
+                <h6 class="text-muted font-weight-medium mb-3 text-right">حيـــاه</h6>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+                
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+
+        
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400" >
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                      src="assets/images/business/Business_1.jpg"
+                      class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row ">
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400 d-flex">
+                    <div class="last-row">
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                        src="assets/images/business/Business_1.jpg"
+                        class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">
+                      استدعت وزارة الخارجية الجزائرية الأربعاء السفير الفرنسي في الجزائر للاحتجاج على قرار باريس خفض عدد التأشيرات الممنوحة للمواطنين الجزائريين، بحسب بيان
+                    </p>
+                  </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img text-right">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2 mob2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    <div class="col-sm-4  mb-5 mb-sm-2">
+                      <div class="position-relative image-hover d-img text-right">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <!-- End section 1-->
+        </div>
+
+          <!-- Start Section 1-->
+          <div dir="rtl" class="container mob">
+            
+          <div class="row">
+            <div class="col-lg-12">
+              <img class="Advertising" src="assets/images/Advertising.jpeg" alt="">
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <h1 class="text-center mt-5">
+                    حيـــاه
+                  </h1>
+                  <p class="text-secondary fs-15">
+                    أهم أخبار الحياه
+                  </p>
+                </div>
+                <h6 class="text-muted font-weight-medium mb-3 text-right">حيـــاه</h6>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+                
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+
+        
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400" >
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                      src="assets/images/business/Business_1.jpg"
+                      class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row ">
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400 d-flex">
+                    <div class="last-row">
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                        src="assets/images/business/Business_1.jpg"
+                        class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">
+                      استدعت وزارة الخارجية الجزائرية الأربعاء السفير الفرنسي في الجزائر للاحتجاج على قرار باريس خفض عدد التأشيرات الممنوحة للمواطنين الجزائريين، بحسب بيان
+                    </p>
+                  </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img text-right">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2 mob2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    <div class="col-sm-4  mb-5 mb-sm-2">
+                      <div class="position-relative image-hover d-img text-right">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <!-- End section 1-->
+        </div>
+
+          <!-- Start Section 1-->
+          <div dir="rtl" class="container mob">
+            
+          <div class="row">
+            <div class="col-lg-12">
+              <img class="Advertising" src="assets/images/Advertising.jpeg" alt="">
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <h1 class="text-center mt-5">
+                    حيـــاه
+                  </h1>
+                  <p class="text-secondary fs-15">
+                    أهم أخبار الحياه
+                  </p>
+                </div>
+                <h6 class="text-muted font-weight-medium mb-3 text-right">حيـــاه</h6>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+                
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+
+        
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400" >
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                      src="assets/images/business/Business_1.jpg"
+                      class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row ">
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400 d-flex">
+                    <div class="last-row">
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                        src="assets/images/business/Business_1.jpg"
+                        class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">
+                      استدعت وزارة الخارجية الجزائرية الأربعاء السفير الفرنسي في الجزائر للاحتجاج على قرار باريس خفض عدد التأشيرات الممنوحة للمواطنين الجزائريين، بحسب بيان
+                    </p>
+                  </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img text-right">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2 mob2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    <div class="col-sm-4  mb-5 mb-sm-2">
+                      <div class="position-relative image-hover d-img text-right">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <!-- End section 1-->
+        </div>
+
+          <!-- Start Section 1-->
+          <div dir="rtl" class="container mob">
+            
+          <div class="row">
+            <div class="col-lg-12">
+              <img class="Advertising" src="assets/images/Advertising.jpeg" alt="">
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <h1 class="text-center mt-5">
+                    حيـــاه
+                  </h1>
+                  <p class="text-secondary fs-15">
+                    أهم أخبار الحياه
+                  </p>
+                </div>
+                <h6 class="text-muted font-weight-medium mb-3 text-right">حيـــاه</h6>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+                
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+
+        
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400" >
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                      src="assets/images/business/Business_1.jpg"
+                      class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row ">
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400 d-flex">
+                    <div class="last-row">
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                        src="assets/images/business/Business_1.jpg"
+                        class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">
+                      استدعت وزارة الخارجية الجزائرية الأربعاء السفير الفرنسي في الجزائر للاحتجاج على قرار باريس خفض عدد التأشيرات الممنوحة للمواطنين الجزائريين، بحسب بيان
+                    </p>
+                  </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img text-right">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2 mob2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    <div class="col-sm-4  mb-5 mb-sm-2">
+                      <div class="position-relative image-hover d-img text-right">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <!-- End section 1-->
+        </div>
+
+          <!-- Start Section 1-->
+          <div dir="rtl" class="container mob">
+            
+          <div class="row">
+            <div class="col-lg-12">
+              <img class="Advertising" src="assets/images/Advertising.jpeg" alt="">
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <h1 class="text-center mt-5">
+                    حيـــاه
+                  </h1>
+                  <p class="text-secondary fs-15">
+                    أهم أخبار الحياه
+                  </p>
+                </div>
+                <h6 class="text-muted font-weight-medium mb-3 text-right">حيـــاه</h6>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+                
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+
+        
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400" >
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                      src="assets/images/business/Business_1.jpg"
+                      class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row ">
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400 d-flex">
+                    <div class="last-row">
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                        src="assets/images/business/Business_1.jpg"
+                        class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">
+                      استدعت وزارة الخارجية الجزائرية الأربعاء السفير الفرنسي في الجزائر للاحتجاج على قرار باريس خفض عدد التأشيرات الممنوحة للمواطنين الجزائريين، بحسب بيان
+                    </p>
+                  </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img text-right">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2 mob2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    <div class="col-sm-4  mb-5 mb-sm-2">
+                      <div class="position-relative image-hover d-img text-right">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <!-- End section 1-->
+        </div>
+
+          <!-- Start Section 1-->
+          <div dir="rtl" class="container mob">
+            
+          <div class="row">
+            <div class="col-lg-12">
+              <img class="Advertising" src="assets/images/Advertising.jpeg" alt="">
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <h1 class="text-center mt-5">
+                    حيـــاه
+                  </h1>
+                  <p class="text-secondary fs-15">
+                    أهم أخبار الحياه
+                  </p>
+                </div>
+                <h6 class="text-muted font-weight-medium mb-3 text-right">حيـــاه</h6>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+                
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+
+        
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400" >
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                      src="assets/images/business/Business_1.jpg"
+                      class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row ">
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400 d-flex">
+                    <div class="last-row">
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                        src="assets/images/business/Business_1.jpg"
+                        class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">
+                      استدعت وزارة الخارجية الجزائرية الأربعاء السفير الفرنسي في الجزائر للاحتجاج على قرار باريس خفض عدد التأشيرات الممنوحة للمواطنين الجزائريين، بحسب بيان
+                    </p>
+                  </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img text-right">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2 mob2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    <div class="col-sm-4  mb-5 mb-sm-2">
+                      <div class="position-relative image-hover d-img text-right">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <!-- End section 1-->
+        </div>
+
+          <!-- Start Section 1-->
+          <div dir="rtl" class="container mob">
+            
+          <div class="row">
+            <div class="col-lg-12">
+              <img class="Advertising" src="assets/images/Advertising.jpeg" alt="">
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <h1 class="text-center mt-5">
+                    حيـــاه
+                  </h1>
+                  <p class="text-secondary fs-15">
+                    أهم أخبار الحياه
+                  </p>
+                </div>
+                <h6 class="text-muted font-weight-medium mb-3 text-right">حيـــاه</h6>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+                
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+
+        
+                    <div class="row section1 max-height-200">
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400" >
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                      src="assets/images/business/Business_1.jpg"
+                      class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row ">
+                  <div class="col-lg-6  mb-5 mb-sm-2 section-1 max-height-400 d-flex">
+                    <div class="last-row">
+                    <div class="position-relative image-hover img-news-xl">
+                      <img
+                        src="assets/images/business/Business_1.jpg"
+                        class="img-fluid"
+                        alt="world-news"
+                      />
+                    </div>
+                    <h6 class="font-weight-600 mt-3 text-right">
+                      <a href="post.html" class="nav-link-post">
+                        خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                      </a>
+                    </h6>
+                    <p class="p-post">
+                      استدعت وزارة الخارجية الجزائرية الأربعاء السفير الفرنسي في الجزائر للاحتجاج على قرار باريس خفض عدد التأشيرات الممنوحة للمواطنين الجزائريين، بحسب بيان
+                    </p>
+                  </div>
+                  </div>
+
+
+                  <div class="col-lg-6  mb-5 mb-sm-2">
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                      <div class="col-sm-4  mb-5 mb-sm-2">
+                        <div class="position-relative image-hover d-img text-right">
+                          <img
+                            src="assets/images/2.jpg"
+                            class="img-fluid img-news"
+                            alt="world-news"
+                          />
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row section1 max-height-200 last-row">
+                      <div class="col-sm-8  mb-5 mb-sm-2 mob2">
+                        <h6 class="font-weight-600 mt-3 text-right">
+                          <a href="post.html" class="nav-link-post">
+                            خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                          </a>
+                        </h6>
+                        <p class="p-post">خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                          خريطة  فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام ..
+                        </p>
+                      </div>
+                    <div class="col-sm-4  mb-5 mb-sm-2">
+                      <div class="position-relative image-hover d-img text-right">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <!-- End section 1-->
+
+
+          <!-- Start Latest section -->
+
+          <div dir="rtl" class="container">
+            <div dir="rtl" class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img class="Advertising" src="assets/images/Advertising.jpeg" alt="">
+                </div>
+              </div>
+            
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <h1 class="text-center mt-5">
+                    حيـــاه
+                  </h1>
+                  <p class="text-secondary fs-15">
+                    أهم أخبار الحياه
+                  </p>
+                </div>
+                <h6 class="text-muted font-weight-medium mb-3 text-right">حيـــاه</h6>
+              </div>
+            </div>
+
+        
+              <div class="row">
+
+                <div class="col-md-4 col-sm-12 div-hover">
+                  <div class="row max-height-200 div-h">
+                    <div class="col-md-4 col-sm-4 ">
+                      <div class="position-relative image-hover">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                        
+                      </div>
+                    </div>
+                    <div class="col-md-8 col-sm-8 text-right">
+                      <h6 class="font-weight-600 mt-3 text-right">
+                        <a href="post.html" class="nav-link-post">
+                          خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                        </a>
+                      </h6>
+                      <p>خريطة المتزوجيhlkjhن فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                        خريطة المتزوجيhlkjhن فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4  col-sm-12 div-hover">
+                  <div class="row max-height-200 div-h">
+                    <div class="col-md-4  col-sm-4">
+                      <div class="position-relative image-hover ">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-8  col-sm-8 text-right">
+                      <h6 class="font-weight-600 mt-3 text-right">
+                        <a href="post.html" class="nav-link-post">
+                          خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                        </a>
+                      </h6>
+                      <p>خريطة المتزوجيhlkjhن فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                        خريطة المتزوجيhlkjhن فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 div-hover">
+                  <div class="row max-height-200 div-h">
+                    <div class="col-md-4  col-sm-4 img-fluid">
+                      <div class="position-relative image-hover">
+                        <img
+                          src="assets/images/2.jpg"
+                          class="img-fluid img-news"
+                          alt="world-news"
+                        />
+                        
+                      </div>
+                    </div>
+                    <div class="col-md-8 col-sm-8 text-right">
+                      <h6 class="font-weight-600 mt-3 text-right">
+                        <a href="post.html" class="nav-link-post">
+                          خريطة المتزوجين فى مصر.. أكثر من 755 عقد زواج لأول مرة عام ..
+                        </a>
+                      </h6>
+                      <p>خريطة المتزوجيhlkjhن فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                        خريطة المتزوجيhlkjhن فى مصر.. أكثر من 755 ألف عقد زواج لأول مرة عام 2020.. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+          <!-- End section 6 -->
+
+
+          <!-- Start Advertising -->
+          <div class="Advertising-1">
+            <img src="./assets/images/1786945056156389136.png" alt="">
+          </div>
+          
+          <div class="Advertising-2">
+            <img src="./assets/images/1786945056156389136.png" alt="">
+          </div>
+          
+          <!-- End Advertising -->
+
+
+          <!-- Start Footer -->
+        <footer dir="rtl">
+          <div class="container">
+            <div class="row footer-logo1">
+              <img src="assets/images/logo.jpeg" alt="">
+            </div>
+            <div class="row">
+              <div class="col-sm-2 col-lg-2">
+                <ul class="footer-vertical-nav">
+                  <li class="menu-title"><a href="pages/news-post.html">بلاد</a></li>
+                  <li><a href="index.html">عاجل</a>
+                  <li><a href="index.html">أخبار</a></li>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-sm-2 col-lg-2">
+                <ul class="footer-vertical-nav">
+                  <li class="menu-title"><a href="pages/news-post.html">اقتصاد</a></li>
+                  <li><a href="index.html">أخبار</a></li>
+                  <li><a href="index.html">تحليل</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-sm-2 col-lg-2">
+                <ul class="footer-vertical-nav">
+                  <li class="menu-title"><a href="pages/news-post.html">رياضه</a></li>
+                  <li><a href="index.html">أخبار</a></li>
+                  <li><a href="index.html">تحليل</a>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div class="col-sm-2 col-lg-2">
+                <ul class="footer-vertical-nav">
+                  <li class="menu-title"><a href="pages/news-post.html">ثقافه</a></li>
+                  <li><a href="index.html">أخبار</a></li>
+                  <li><a href="index.html">تحليل</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-sm-2 col-lg-2">
+                <ul class="footer-vertical-nav">
+                  <li class="menu-title"><a href="pages/news-post.html">منوعات</a></li>
+                  <li><a href="index.html">سوشيال</a></li>
+                  <li><a href="index.html">توك شو</a>
+                  <li><a href="index.html">المرأه والطفل</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-sm-2 col-lg-2">
+                <ul class="footer-vertical-nav">
+                  <li class="menu-title"><a href="pages/news-post.html">حضاره</a></li>
+                  <li class="menu-title"><a href="pages/news-post.html">حيـــاه</a></li>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            
+            <div class="row">
+              <div class="col-sm-12">
+                <div
+                  class="d-lg-flex justify-content-between align-items-center border-top mt-5 footer-bottom"
+                >
+                  <ul class="footer-horizontal-menu">
+                    <li><a href="pages/contactus.html">التواصل معنا</a></li>
+                    <li><a href="pages/aboutus.html">من نحن</a></li>
+                    <li><a href="#">اشترك معنا</a></li>
+                    <li><a href="#">للإعلان من خلالنا</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- End Footer -->
+
+
+    
+        <!-- partial -->
+      </div>
+    </div>
+    <!-- inject:js -->
+    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- plugin js for this page -->
+    <script src="./assets/vendors/owl.carousel/dist/owl.carousel.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- Custom js for this page-->
+    <script src="./assets/js/demo.js"></script>
+    <!-- End custom js for this page-->
+
+    <!-- BootStrap -->
+
+    <script src="./assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
