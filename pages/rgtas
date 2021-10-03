@@ -50,15 +50,45 @@
           <div class="container">
             <!-- partial:partials/_navbar.html -->
             <nav class="navbar navbar-expand-lg navbar-light ">
-
-              
-              <div class="d-flex justify-content-between align-items-center nav-mob navbar-top">
-
+              <div class="d-flex align-items-center nav-mob justify-content-between navbar-top text-center">
+                <div class="d-flex">
+                  <ul class="social-media">
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-twitter"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
                 <div class="text-center">
                   <a class="navbar-brand" href="#"
                     ><img class="logo" src="../assets/images/logo.jpeg" alt=""
                   /></a>
                 </div>
+
+                <div class="text-right weather-div">
+                  <img class="weather" src="../assets/images/images.jpg" alt="">
+              </div>
               </div>
 
               <div class="navbar-bottom-menu">
@@ -298,10 +328,10 @@
 
             </div>
             
-            <div class="row">
+            <div class="row last-footer">
               <div class="col-sm-12">
-                <div
-                  class="d-lg-flex justify-content-between align-items-center border-top mt-5 footer-bottom"
+                <div style="padding: 0;"
+                  class="d-lg-flex justify-content-around align-items-center border-bottom footer-bottom"
                 >
                   <ul class="footer-horizontal-menu">
                     <li><a href="pages/contactus.html">التواصل معنا</a></li>
@@ -338,3 +368,127 @@
     <script src="../assets/js/bootstrap.min.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="text-center">
+        <h1 class="text-center mt-5">
+          Contact Us
+        </h1>
+        <p class="text-secondary fs-15 mb-5 pb-3">
+          This text can be added in the category Description field in
+          dashboard
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="contact-wrap">
+    <div class="row">
+      <div class="col-lg-6  mb-5 mb-sm-2">
+        <form>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                  placeholder="Name *"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                  placeholder="Email *"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  aria-describedby="Subject"
+                  placeholder="Subject"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <textarea
+                  class="form-control textarea"
+                  placeholder="Message"
+                  id="message"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <a href="#" class="btn btn-lg btn-dark font-weight-bold"
+                  >Submit</a
+                >
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-6 mb-2 mb-lg-2">
+        <div class="contact-right-padding">
+          <div class="row">
+            <div class="col-sm-12  mb-2 mb-lg-2">
+              <h1>GET IN TOUCH</h1>
+              <p class="mb-4 fs-15">
+                This text can be added in the category Description field
+                in dashboard
+              </p>
+              <p class="mb-0 font-weight-bold fs-14">
+                ADDRESS
+              </p>
+              <p class="mb-4 font-weight-medium fs-14">
+                329 South Street Court - Albany, NY 83741
+              </p>
+              <p class="mb-0 font-weight-bold fs-14">
+                PHONE
+              </p>
+              <p class="mb-4 font-weight-medium fs-14">
+                (123) 456 - 7890
+              </p>
+              <p class="mb-0 font-weight-bold fs-14">
+                EMAIL
+              </p>
+              <p class="mb-4 font-weight-medium fs-14">
+                info@example.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
