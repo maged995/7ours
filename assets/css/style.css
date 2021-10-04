@@ -11395,3 +11395,8 @@ p {
   max-width: 50%;
   line-height: 2em;
 }
+
+.p-post {
+  width: 80%;
+  margin: 0 10%;
+}
